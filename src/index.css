@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.list-task::-webkit-scrollbar {
+    width: 9px;
+    /* width of the entire scrollbar */
+}
+
+.list-task::-webkit-scrollbar-track {
+    background: transparent;
+    /* color of the tracking area */
+}
+
+.list-task::-webkit-scrollbar-thumb {
+    background-color: #374151;
+    /* color of the scroll thumb */
+    border-radius: 20px;
+    /* roundness of the scroll thumb */
+    border: 3px solid transparent;
+    /* creates padding around scroll thumb */
+}
+
+/* .list-task {
+    scrollbar-width: thin;
+    /* "auto" or "thin" */
+/* scrollbar-color: #374151 transparent; */
+/* scroll thumb and track */
+/* } */
