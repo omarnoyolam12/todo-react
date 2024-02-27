@@ -28,7 +28,7 @@ export const InputTask: FC<Props> = ({ newTask, setNewTask, nuevaTarea }) => {
 
                 <input
                     type="text"
-                    className="flex-1 bg-transparent p-2 placeholder-gray-300 dark:placeholder-gray-700 text-xl outline-none text-gray-300"
+                    className="flex-1 bg-transparent p-2 placeholder-gray-300 dark:placeholder-gray-700 text-xl outline-none text-gray-700 dark:text-gray-300"
                     placeholder="Nueva Tarea"
                     value={newTask}
                     onChange={e => setNewTask(e.target.value)}
