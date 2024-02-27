@@ -84,7 +84,7 @@ export const Todo = () => {
 
     return (
         <div className="absolute inset-0 w-full h-full flex justify-center items-start">
-            <div className=" px-3 w-full md:w-[620px] py-16">
+            <div className=" px-3 w-full md:w-[620px] py-5 md:py-16">
                 <div className="flex justify-between items-center">
                     <motion.h1
                         className="text-white text-4xl font-bold tracking-[.5em]"

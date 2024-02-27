@@ -10,7 +10,7 @@ export function ReorderIcon({ dragControls }: Props) {
             xmlns="http://www.w3.org/2000/svg"
             width="24" height="24"
             viewBox="0 0 24 24"
-            style={{ fill: "#CCC" }}
+            style={{ fill: "#CCC", touchAction: "none" }}
             onPointerDown={(event) => {
                 event.preventDefault();
                 dragControls.start(event);
